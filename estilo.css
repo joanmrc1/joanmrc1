@@ -17,6 +17,10 @@ body {
 
 }
 
+.navbar-header {
+    margin-left: 90px !important;
+}
+
 .navbar .navbar-collapse li a {
     font-size: 18px;
     font-family: 'Droid Sans', serif;
@@ -48,6 +52,7 @@ body {
     background: url('img/Logo.jpg') no-repeat;
     background-size: contain;
     color: transparent;
+
     /* Define que a imagens vai ter o mesmo tamanho definido aqui o fundo... */
 }
 
@@ -98,6 +103,7 @@ body {
 }
 
 .Divisor1 {
+    text-align: center;
     background: rgb(216, 199, 199);
     border-top: 1px solid rgba(80, 18, 18, 0.84);
     box-shadow: 0px 1px 10px #000000;
@@ -300,7 +306,7 @@ body {
     position: relative;
     float: right;
     width: 1.2px;
-    height: 770px;
+    height: 780px;
     background-color: #959191;
     border: #959191;
     box-shadow: 0px 1px 10px #0f0c0c;
@@ -321,49 +327,30 @@ body {
     text-align: left;
 }
 
-/* ---------------------- Formatação dos Anos ------------------*/
+/* ---------------------- Formatação dos Anos e Texto ------------------*/
+
+/*Java Programção*/
 
 .Ano2017-Java {
-    margin: 67px auto auto auto;
+    position: relative;
+    margin: 0.5% 1% 1% 9%;
     background-color: #0099e8;
-    width: 20%;
-    height: 21px;
-    text-align: center;
+    width: 6%;
+    height: 25px;
+    float: left;
 }
 
 .Ano2017-Java p {
     padding: 1px 3px 1px 5px;
-    color: white;
+    color: #fff !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.Ano2017-Logica {
-    margin: 280px auto auto auto;
-    background-color: #0099e8;
-    width: 20%;
-    height: 21px;
-    text-align: center;
+#Escolaridade .Topicos-Projetos1 .TextoJava {
+    position: relative;
+    margin: auto auto 50px 210px;
 }
-
-.Ano2017-Logica p {
-    color: white;
-}
-
-.Ano2017-BancodeDados {
-    margin: 250px auto auto auto;
-    background-color: #0099e8;
-    width: 20%;
-    height: 21px;
-    text-align: center;
-}
-
-.Ano2017-BancodeDados p {
-    padding: 1px 1px 1px 5px;
-    color: white;
-}
-
-/* ---------------------- Fim Formatação dos Anos ------------------*/
-
-/*Formatação JAVA */
 
 .Topicos-Projetos1 {
     margin: 60px auto auto auto;
@@ -384,7 +371,26 @@ body {
     text-align: justify;
 }
 
-/*Formatação Logica */
+/*-Logica de Progrmação-*/
+
+.Ano2017-Logica {
+    position: relative;
+    margin: 0.5% 1% 1% 9%;
+    background-color: #0099e8;
+    width: 6%;
+    height: 25px;
+    float: left;
+}
+
+.Ano2017-Logica p {
+    color: white !important;
+    padding: 1px 2px 1px 6px;
+}
+
+#Escolaridade .Topicos-Projetos2 .TextoLogica {
+    position: relative;
+    margin: auto auto 20px 210px;
+}
 
 .Topicos-Projetos2 {
     margin: 88px auto auto auto;
@@ -405,7 +411,26 @@ body {
     text-align: justify;
 }
 
-/*Formatação Banco */
+/*-Banco de Dados-*/
+
+.Ano2017-BancodeDados {
+    position: relative;
+    margin: 0.5% 1% 1% 9%;
+    background-color: #0099e8;
+    width: 6%;
+    height: 25px;
+    float: left;
+}
+
+.Ano2017-BancodeDados p {
+    padding: 1px 1px 1px 5px;
+    color: white !important;
+}
+
+#Escolaridade .Topicos-Projetos3 .TextoBanco {
+    position: relative;
+    margin: auto auto 50px 210px;
+}
 
 .Topicos-Projetos3 {
     margin: 88px auto auto auto;
@@ -426,7 +451,6 @@ body {
     text-align: justify;
 }
 
-/* Fim Fmormataçao Banco de Dados */
 
 /* ------------------------- Fim do Terceiro topico -----------------------*/
 
@@ -461,51 +485,26 @@ body {
 
 /* ---------------------- fim Topico da esquerda  ------------------*/
 
-/* ---------------------- Formatação dos Anos ------------------*/
+/* ---------------------- Formatação dos Anos e Texto ------------------*/
 
 .AnoPomboSujo {
-    margin: 67px auto auto auto;
+    position: relative;
+    margin: 0.5% 1% 1% 9%;
     background-color: #0099e8;
-    width: 20%;
-    text-align: center;
-
+    width: 6%;
+    height: 25px;
+    float: left;
 }
 
 .AnoPomboSujo p {
     padding: 1px 3px 1px 5px;
-    color: white;
+    color: white !important;
 }
 
-.TechKids {
-    margin: 280px auto auto auto;
-    background-color: #0099e8;
-    width: 20%;
-    text-align: center;
+#Expericencias .Topicos-Escolaridade1 .TextoPomboSujo {
+    position: relative;
+    margin: auto auto 50px 210px;
 }
-
-.TechKids p {
-    padding: 1px 1px 1px 5px;
-    color: white;
-}
-
-.Repphex {
-    margin: 255px auto auto auto;
-    background-color: #0099e8;
-    width: 20%;
-    text-align: center;
-}
-
-.Repphex p {
-    padding: 1px 1px 1px 5px;
-    color: white;
-}
-
-
-/* ----------------------Fim Formatação dos Anos ------------------*/
-
-/* --------------------Formatação dos textos do topico ------------------*/
-
-/* Formataçao Pombo Sujo */
 
 .Topicos-Escolaridade1 {
     margin: 60px auto auto auto;
@@ -526,7 +525,26 @@ body {
     text-align: justify;
 }
 
-/* Formataçao Tech Kids */
+/*-----------------*/
+
+.TechKids {
+    position: relative;
+    margin: 0.5% 1% 1% 9%;
+    background-color: #0099e8;
+    width: 6%;
+    height: 25px;
+    float: left;
+}
+
+.TechKids p {
+    padding: 1px 1px 1px 5px;
+    color: white !important;
+}
+
+#Expericencias .Topicos-Escolaridade2 .TextoTechKids {
+    position: relative;
+    margin: auto auto 50px 210px;
+}
 
 .Topicos-Escolaridade2 {
     margin: 65px auto auto auto;
@@ -547,7 +565,27 @@ body {
     text-align: justify;
 }
 
-/* Formataçao Repphex */
+
+/*-----------------*/
+
+.Repphex {
+    position: relative;
+    margin: 0.5% 1% 1% 9%;
+    background-color: #0099e8;
+    width: 6%;
+    height: 25px;
+    float: left;
+}
+
+.Repphex p {
+    padding: 1px 1px 1px 5px;
+    color: white !important;
+}
+
+#Expericencias .Topicos-Escolaridade3 .TextoRepphex {
+    position: relative;
+    margin: auto auto 50px 210px;
+}
 
 .Topicos-Escolaridade3 {
     margin: 65px auto auto auto;
@@ -568,6 +606,7 @@ body {
     text-align: justify;
 }
 
+
 /* --------------------------- Fim do Quarto topico ------------------------*/
 
 /* ------------------------- Inicio do Quinto topico -----------------------*/
@@ -576,7 +615,7 @@ body {
     position: relative;
     float: right;
     width: 1.2px;
-    height: 450px;
+    height: 1150px;
     background-color: #959191;
     border: #959191;
     box-shadow: 0px 1px 10px #0f0c0c;
@@ -601,21 +640,47 @@ body {
     margin: 65px auto auto auto;
 }
 
-.CentralizarImgs .albuns1,
-.albuns2 {
+.CentralizarImgs img {
+    width: 100%;
+    height: 100%;
+}
+
+.CentralizarImgs h2 {
+    text-align: left;
+    font-size: 34px;
+    margin: 20px auto 15px 10px;
+    font-family: serif;
+    color: #1d347e;
+}
+
+.CentralizarImgs .albuns1 {
+    width: 98%;
+}
+
+.CentralizarImgs .albuns1 img {
+    padding: 10px;
+}
+
+.CentralizarImgs .albuns2,
+.albuns3,
+.albuns4 {
     padding: 10px;
 }
 
 .Quinto-Topico .CentralizarImgs .albuns1 img,
-.albuns2 img {
-    border: 4px inset #2f1562;
+.albuns2 img,
+.albuns3 img,
+.albuns4 img {
+    padding: 10px;
+    border-radius: 35px 50px 50px 20px;
     box-shadow: 0px 0px 20px 0px #000000;
 }
 
 .Quinto-Topico .CentralizarImgs .albuns1 img:hover,
-.albuns2 img:hover {
-    border: 5px outset #3d014e;
-    box-shadow: 0px 0px 50px 0px #c31010;
+.albuns2 img:hover,
+.albuns3 img:hover,
+.albuns4 img:hover {
+    box-shadow: 0px 0px 50px 0px #412727;
 }
 
 /* ------------------------- Fim do Quinto topico -----------------------*/
@@ -640,7 +705,7 @@ body {
     font-family: 'Arvo', serif;
     margin: auto 10px auto auto;
     font-size: 30px;
-    color: #03193c;
+    color: #3a3d40;
     text-align: left;
 }
 
