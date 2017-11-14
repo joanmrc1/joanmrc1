@@ -21,6 +21,10 @@ body {
     margin-left: 90px !important;
 }
 
+.collapse {
+    background: #2a314e;
+}
+
 .navbar .navbar-collapse li a {
     font-size: 18px;
     font-family: 'Droid Sans', serif;
@@ -40,18 +44,17 @@ body {
 }
 
 .nav li.active a {
-    background: rgb(255, 255, 255)!important;
+    background: #ffffff!important;
     border-top: 3px solid #0099e8;
+    border-bottom: 3px solid #0099e8;
     border-radius: 50px 50px 50px 50px;
 }
 
 .img-logo {
-    height: 55px;
     width: 80px;
     position: relative;
     background: url('img/Logo.jpg') no-repeat;
     background-size: contain;
-    color: transparent;
 
     /* Define que a imagens vai ter o mesmo tamanho definido aqui o fundo... */
 }
@@ -306,7 +309,7 @@ body {
     position: relative;
     float: right;
     width: 1.2px;
-    height: 780px;
+    height: 740px;
     background-color: #959191;
     border: #959191;
     box-shadow: 0px 1px 10px #0f0c0c;
@@ -332,12 +335,11 @@ body {
 /*Java Programção*/
 
 .Ano2017-Java {
-    position: relative;
-    margin: 0.5% 1% 1% 9%;
+    margin: 6% 5% 5% 5%;
     background-color: #0099e8;
     width: 6%;
     height: 25px;
-    float: left;
+    text-align: center;
 }
 
 .Ano2017-Java p {
@@ -349,7 +351,7 @@ body {
 
 #Escolaridade .Topicos-Projetos1 .TextoJava {
     position: relative;
-    margin: auto auto 50px 210px;
+    margin: auto auto auto 10px;
 }
 
 .Topicos-Projetos1 {
@@ -374,12 +376,10 @@ body {
 /*-Logica de Progrmação-*/
 
 .Ano2017-Logica {
-    position: relative;
-    margin: 0.5% 1% 1% 9%;
+    margin: 6% 5% 5% 5%;
     background-color: #0099e8;
     width: 6%;
     height: 25px;
-    float: left;
 }
 
 .Ano2017-Logica p {
@@ -389,11 +389,11 @@ body {
 
 #Escolaridade .Topicos-Projetos2 .TextoLogica {
     position: relative;
-    margin: auto auto 20px 210px;
+    margin: auto auto auto 10px;
 }
 
 .Topicos-Projetos2 {
-    margin: 88px auto auto auto;
+    margin: 60px auto auto auto;
 }
 
 .Topicos-Projetos2 h2 {
@@ -415,11 +415,10 @@ body {
 
 .Ano2017-BancodeDados {
     position: relative;
-    margin: 0.5% 1% 1% 9%;
+    margin: 6% 5% 5% 5%;
     background-color: #0099e8;
     width: 6%;
     height: 25px;
-    float: left;
 }
 
 .Ano2017-BancodeDados p {
@@ -429,11 +428,11 @@ body {
 
 #Escolaridade .Topicos-Projetos3 .TextoBanco {
     position: relative;
-    margin: auto auto 50px 210px;
+    margin: auto auto auto 10px;
 }
 
 .Topicos-Projetos3 {
-    margin: 88px auto auto auto;
+    margin: 65px auto auto auto;
 }
 
 .Topicos-Projetos3 h2 {
@@ -462,7 +461,7 @@ body {
     position: relative;
     float: right;
     width: 1.2px;
-    height: 810px;
+    height: 870px;
     background-color: #959191;
     border: #959191;
     box-shadow: 0px 1px 10px #0f0c0c;
@@ -489,11 +488,10 @@ body {
 
 .AnoPomboSujo {
     position: relative;
-    margin: 0.5% 1% 1% 9%;
+    margin: 6% 5% 5% 5%;
     background-color: #0099e8;
     width: 6%;
     height: 25px;
-    float: left;
 }
 
 .AnoPomboSujo p {
@@ -503,11 +501,11 @@ body {
 
 #Expericencias .Topicos-Escolaridade1 .TextoPomboSujo {
     position: relative;
-    margin: auto auto 50px 210px;
+    margin: auto auto auto 10px;
 }
 
 .Topicos-Escolaridade1 {
-    margin: 60px auto auto auto;
+    margin: 65px auto auto auto;
 }
 
 .Topicos-Escolaridade1 h2 {
@@ -529,11 +527,10 @@ body {
 
 .TechKids {
     position: relative;
-    margin: 0.5% 1% 1% 9%;
+    margin: 6% 5% 5% 5%;
     background-color: #0099e8;
     width: 6%;
     height: 25px;
-    float: left;
 }
 
 .TechKids p {
@@ -543,7 +540,7 @@ body {
 
 #Expericencias .Topicos-Escolaridade2 .TextoTechKids {
     position: relative;
-    margin: auto auto 50px 210px;
+    margin: auto auto auto 10px;
 }
 
 .Topicos-Escolaridade2 {
@@ -570,11 +567,10 @@ body {
 
 .Repphex {
     position: relative;
-    margin: 0.5% 1% 1% 9%;
+    margin: 6% 5% 5% 5%;
     background-color: #0099e8;
     width: 6%;
     height: 25px;
-    float: left;
 }
 
 .Repphex p {
@@ -584,7 +580,7 @@ body {
 
 #Expericencias .Topicos-Escolaridade3 .TextoRepphex {
     position: relative;
-    margin: auto auto 50px 210px;
+    margin: auto auto auto 10px;
 }
 
 .Topicos-Escolaridade3 {
