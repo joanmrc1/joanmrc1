@@ -117,6 +117,29 @@ body {
 
 /* ------------------------- Inicio do primeiro topico ------------------------*/
 
+@media screen and (max-width: 1024px) {
+    
+    div .divVerticalQuemSou {
+        display: none;
+    }
+    div .divVertical {
+        display: none;
+    }
+    div .divVerticalxp {
+        display: none;
+    }
+    div .divVerticalcol {
+        display: none;
+    }
+    div .divVerticalport {
+        display: none;
+    }
+    div .divVerticalcontatos {
+        display: none;
+    }
+    
+}
+
 .divVerticalQuemSou {
     position: relative;
     float: right;
@@ -730,4 +753,41 @@ body {
     margin: 50px auto auto auto;
     padding: 5px;
     height: 45px;
+}
+
+/* ------------------------- Botão Inicio -----------------------*/
+
+
+a .fa {
+    background-color: aqua;
+}
+
+.BtnInicio {
+    position: fixed;
+    bottom: 2em;
+    right: 1em;            
+    color: black;
+    font-size: 30px;
+    padding: 1em;
+    border-radius: 100%;
+}
+
+
+.BtnInicio:hover {
+    background-color: aqua;
+}
+
+.circle-md {
+    width: 60px;
+    padding-top: 15px;
+    height: 60px;
+    font-size: 24px!important;
+}
+.circle {
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+}
+.bg-success {
+    background-color: #53e69d!important;
 }
