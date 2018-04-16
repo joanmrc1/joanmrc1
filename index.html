@@ -468,8 +468,8 @@
     </section>
     
     
-        <a href="#" class="BtnInicio circle circle-md bg-success">
-            <i clas="fa fa-plus"></i>
+        <a href="#" class="BtnInicio">
+            <span class="glyphicon glyphicon-chevron-up "></span>
         </a>
 
     <!-- jQuery (necessary for Bootstrap 's JavaScript plugins) -->
@@ -510,10 +510,15 @@
             });
         });
         
+        
+        //Botão Inicial
+        
         jQuery(window).scroll(function() {
-            if (jQuery(this).scrollTop() > 500) {
-                jQuery('.BtnInicio').fadeIn(300);
-            }
+            if (jQuery(this).scrollTop() > 300) {
+                    jQuery('.BtnInicio').fadeIn(300);
+                } else {
+                    jQuery('.BtnInicio').fadeOut(300);
+                }
         });
             
         // Faz animação para subir

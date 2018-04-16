@@ -764,8 +764,20 @@ a .fa {
 
 .BtnInicio {
     position: fixed;
-    bottom: 2em;
+    bottom: 1em;
     right: 1em;            
+    color: black;
+    font-size: 30px;
+    padding: 1em;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 612px) {
+    
+.BtnInicio {
+    position: fixed;
+    bottom: 0.4em;
+    right: 0.8em;            
     color: black;
     font-size: 30px;
     padding: 1em;
@@ -778,10 +790,10 @@ a .fa {
 }
 
 .circle-md {
-    width: 60px;
+    width: 40px;
     padding-top: 15px;
-    height: 60px;
-    font-size: 24px!important;
+    height: 40px;
+    font-size: 20px!important;
 }
 .circle {
     border-radius: 100%;
@@ -791,3 +803,7 @@ a .fa {
 .bg-success {
     background-color: #53e69d!important;
 }
+
+
+
+
