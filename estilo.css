@@ -358,23 +358,24 @@ body {
 /*Java Programção*/
 
 .Ano2017-Java {
+    position: relative;
     margin: 6% 5% 5% 5%;
     background-color: #0099e8;
     width: 6%;
     height: 25px;
-    text-align: center;
 }
 
 .Ano2017-Java p {
     padding: 1px 3px 1px 5px;
     color: #fff !important;
+    background-color: #0099e8;
     margin-left: auto;
     margin-right: auto;
 }
 
 #Escolaridade .Topicos-Projetos1 .TextoJava {
     position: relative;
-    margin: auto auto auto 10px;
+    margin-bottom:10px;
 }
 
 .Topicos-Projetos1 {
@@ -519,7 +520,10 @@ body {
 
 .AnoPomboSujo p {
     padding: 1px 3px 1px 5px;
-    color: white !important;
+    color: #fff !important;
+    background-color: #0099e8;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #Expericencias .Topicos-Escolaridade1 .TextoPomboSujo {
@@ -759,34 +763,40 @@ body {
 
 
 a .fa {
-    background-color: aqua;
+    
 }
 
 .BtnInicio {
     position: fixed;
     bottom: 1em;
     right: 1em;            
-    color: black;
-    font-size: 30px;
+    color: #241d1d;
+    font-size: 20px;
     padding: 1em;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 612px) {
     
-.BtnInicio {
-    position: fixed;
-    bottom: 0.4em;
-    right: 0.8em;            
-    color: black;
-    font-size: 30px;
-    padding: 1em;
-    border-radius: 100%;
+    .BtnInicio {
+        position: fixed;
+        bottom: 2em;
+        right: 1em;            
+        color: #241d1d;
+        font-size: 20px;
+        padding: 0.7em;
+        border-radius: 50%;
+    }
+    
+    .BtnInicio:hover {
+        background-color: rgba(62, 57, 57, 0.2);
+        color: #1d5674;
+    }
 }
 
-
 .BtnInicio:hover {
-    background-color: aqua;
+    background-color: rgba(62, 57, 57, 0.2);
+    color: #1d5674;
 }
 
 .circle-md {
@@ -804,6 +814,67 @@ a .fa {
     background-color: #53e69d!important;
 }
 
+/* Ativando Resposividae  */
+
+@media screen and (max-width: 990px) {
+    
+    /* Certificados */
+    
+    .Ano2017-Java {
+        margin: auto;
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+        width: auto;
+    }   
+    
+    .Ano2017-Java p {
+        color: #fff !important;
+        margin: auto;
+    }
+    
+    .Topicos-Projetos1 {
+        margin: 20px auto auto auto;
+    }
+    
+    /* Experiências */
+    .AnoPomboSujo {
+        margin: auto;
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+        width: auto;
+    }
+    
+    .AnoPomboSujo p {
+        color: #fff !important;
+        margin: auto;
+    }
+    
+    .Topicos-Escolaridade1 {
+        margin: 20px auto auto auto;
+    }
+    
+    /* Retirando os outros anos*/
+    
+    
+    .Ano2017-Logica {
+        display: none;
+    }
+    
+    .Ano2017-BancodeDados {
+        display: none;
+    }
+    
+    .TechKids {
+        display: none;
+    }
+    
+    .Repphex {
+        display: none;
+    }
+    
+}
 
 
 
