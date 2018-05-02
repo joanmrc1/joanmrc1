@@ -51,13 +51,22 @@ body {
 }
 
 .img-logo {
-    width: 80px;
+    width: 75px;
     position: relative;
     background: url('img/Logo.jpg') no-repeat;
     background-size: contain;
-
-    /* Define que a imagens vai ter o mesmo tamanho definido aqui o fundo... */
 }
+@media screen and (max-width: 769px) {
+    
+    .img-logo {
+        width: 59px;
+        position: relative;
+        background: url('img/Logo.jpg') no-repeat;
+        background-size: contain;
+    }
+    
+}
+
 
 
 /*------------------------------ Fim da nav bar ------------------------------*/
@@ -780,11 +789,11 @@ a .fa {
     
     .BtnInicio {
         position: fixed;
-        bottom: 2em;
+        bottom: 0.3em;
         right: 1em;            
-        color: #241d1d;
-        font-size: 20px;
-        padding: 0.7em;
+        color: #3b3333;
+        font-size: 18px;
+        padding: 0.8em;
         border-radius: 50%;
     }
     
