@@ -10,6 +10,8 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    
     <link href="estilo.css" rel="stylesheet">
     <link rel='stylesheet' id='pcv-googlefont-css' href='http://fonts.googleapis.com/css?family=Arvo:400,700|Droid+Sans:400,700' type='text/css' media='all' />
     <link rel='stylesheet' href="https://fonts.google.com/specimen/Alfa+Slab+One?selection.family=Alfa+Slab+One" type='text/css' media='all'>
@@ -136,7 +138,7 @@
                     </div>
                 </div>
 
-                <div class=" col-md-5">
+                <div class=" col-md-5"> 
                     <div class="Text-Especialidades">
                         <p>Tenho conhecimento nas linguagem de programação Java (Com Orientação a Objetos), C#, C, CRUD em PHP e na plataforma de desenvolvimento de games Contruct2.<br><br> Em front-end, tenho conhecimentos em HTML5, CSS3, BootStrap, além disso estou estudando Javascript e JQuery.<br><br> Conhecimento em Banco de dados MySQL, SQL Server e SQLite.</p>
                     </div>
@@ -193,11 +195,11 @@
 
                 </div>
                 
-                <div class="container">
+                
                     <div class="col-md-3 Ano2017-Java">
                         <p>2017</p>
                     </div>
-                </div>
+                
                 <div class="col-md-6">
                     <article class="Topicos-Projetos1">
                         <div class="TextoJava">
@@ -208,7 +210,7 @@
                         </div>
                     </article>
                 </div>
-
+                
             </div>
 
             <div class="row-fluid">
@@ -261,11 +263,11 @@
                     </div>
                 </div>
                 
-                <div class="container">
-                    <div class="col-md-3 AnoPomboSujo">
+                
+                <div class="col-md-3 AnoPomboSujo">
                         <p>2017</p>
-                    </div>
                 </div>
+                
                 
                 <div class="col-md-6">
                     <article class="Topicos-Escolaridade1">
@@ -277,6 +279,7 @@
                         </div>
                     </article>
                 </div>
+                
             </div>
 
             <div class="row-fluid">
@@ -471,16 +474,16 @@
         </div>
     </section>
     
-    
-        <a href="#" class="BtnInicio">
+    <a type="button" href="#" class="btn btn-info circle circle-sm bg-info di Btn_Adicionar">
+        <div class="CenterSpan">
             <span class="glyphicon glyphicon-chevron-up"></span>
-        </a>
+        </div>
+    </a>
 
-    <!-- jQuery (necessary for Bootstrap 's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js "></script>
-
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="Jquery-3.3.1/jquery-3.3.1.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js "></script>
+    
+    
 </body>
 
 
@@ -519,14 +522,14 @@
         
         jQuery(window).scroll(function() {
             if (jQuery(this).scrollTop() > 300) {
-                    jQuery('.BtnInicio').fadeIn(300);
+                    jQuery('.Btn_Adicionar').fadeIn(300);
                 } else {
-                    jQuery('.BtnInicio').fadeOut(300);
+                    jQuery('.Btn_Adicionar').fadeOut(300);
                 }
         });
             
         // Faz animação para subir
-        jQuery('.BtnInicio').click(function(event) {
+        jQuery('.Btn_Adicionar').click(function(event) {
             event.preventDefault();
             jQuery('html, body').animate({scrollTop: 0}, 300);
         });
