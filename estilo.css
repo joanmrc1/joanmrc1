@@ -125,29 +125,6 @@ body {
 
 /* ------------------------- Inicio do primeiro topico ------------------------*/
 
-@media screen and (max-width: 1024px) {
-    
-    div .divVerticalQuemSou {
-        display: none;
-    }
-    div .divVertical {
-        display: none;
-    }
-    div .divVerticalxp {
-        display: none;
-    }
-    div .divVerticalcol {
-        display: none;
-    }
-    div .divVerticalport {
-        display: none;
-    }
-    div .divVerticalcontatos {
-        display: none;
-    }
-    
-}
-
 .divVerticalQuemSou {
     position: relative;
     float: right;
@@ -245,6 +222,22 @@ body {
     font-family: 'Droid Sans', sans-serif;
     color: #0099e8;
     text-align: left;
+}
+
+.Ano2017-Especialidade {
+    position: relative;
+    margin: 6% 5% 5% 5%;
+    background-color: #0099e8;
+    width: 6%;
+    height: 25px;
+}
+
+.Ano2017-Especialidade p {
+    padding: 1px 3px 1px 5px;
+    color: #fff !important;
+    background-color: #0099e8;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Text-Especialidades p {
@@ -594,7 +587,6 @@ body {
     text-align: justify;
 }
 
-
 /*-----------------*/
 
 .Repphex {
@@ -713,102 +705,53 @@ body {
 
 /* ------------------------- Fim do Quinto topico -----------------------*/
 
-/* ------------------------- Inicio do Sexto topico -----------------------*/
+/* ------------------------- Botão Subir -----------------------*/
 
-.Style2 {
-    margin: 30px auto auto auto;
+.di {
+    display: inline-block;
+    display: none;
 }
 
-.divVerticalcontatos {
-    position: relative;
-    float: right;
-    width: 1.2px;
-    height: 400px;
-    background-color: #959191;
-    border: #959191;
-    box-shadow: 0px 1px 10px #0f0c0c;
+.bg-info {
+    background-color: #338ab7!important;
 }
 
-.Contato h2 {
-    font-family: 'Arvo', serif;
-    margin: auto 10px auto auto;
-    font-size: 30px;
-    color: #3a3d40;
-    text-align: left;
-}
-
-.Contato h5 {
-    margin: 2px auto auto;
-    font-family: 'Droid Sans', sans-serif;
-    color: #0099e8;
-    text-align: left;
-}
-
-.Contatos {
-    margin: 60px auto 50px 30px;
-    width: 100%;
-    background-color: #0b2746;
-}
-
-.Contatos h2 {
-    margin: 30px;
-    padding: 10px;
-    position: relative;
-    font-family: default;
-    color: #020b1d;
-}
-
-.centralizadorContato {
-    margin: 50px auto auto auto;
-    padding: 5px;
-    height: 45px;
-}
-
-/* ------------------------- Botão Inicio -----------------------*/
-
-.BtnInicio {
-    position: fixed;
-    bottom: 1em;
-    right: 1em;  
-    color: #1b2448;
-    font-size: 20px;
-    padding: 1em;
-    border-radius: 100%;
-    background-color: rgba(33, 34, 78, 0.5);
-}
-
-.BtnInicio:hover {
-    color: #1b2448;
-    background-color: rgba(62, 55, 82, 0.9);
-    
-}
-
-@media screen and (max-width: 612px) {
-    
-    
-}
-
-.circle-md {
-    width: 40px;
+.circle-sm {
+    width: 50px;
     padding-top: 15px;
-    height: 40px;
-    font-size: 20px!important;
+    height: 50px;
+    font-size: 25px!important;
 }
+
 .circle {
     border-radius: 100%;
-    text-align: center;
-    color: #fff;
-}
-.bg-success {
-    background-color: #53e69d!important;
+    text-align: center !important;
+    color: #ffffff !important;
 }
 
-/* Ativando Resposividae  */
+.Btn_Subir {
+    position: fixed;
+    bottom: 1em;
+    right: 0.7em;
+    text-decoration: none;
+    color: red;
+    background-color: rgba(255, 255, 255, .2);
+    font-size: 12px;
+    padding: 1em;
+}
 
+.CenterSpan span {
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+/* Ativando Resposividae  de anos */
 @media screen and (max-width: 990px) {
-    
+
     /* Certificados */
-    
     .Ano2017-Java {
         margin: auto;
         margin-top: 20px;
@@ -818,6 +761,20 @@ body {
     }   
     
     .Ano2017-Java p {
+        color: #fff !important;
+        margin: auto;
+    }
+
+    /* Especialidades */
+    .Ano2017-Especialidade {
+        margin: auto;
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+        width: auto;
+    }   
+    
+    .Ano2017-Especialidade p {
         color: #fff !important;
         margin: auto;
     }
@@ -845,8 +802,6 @@ body {
     }
     
     /* Retirando os outros anos*/
-    
-    
     .Ano2017-Logica {
         display: none;
     }
@@ -862,48 +817,28 @@ body {
     .Repphex {
         display: none;
     }
+
+    /*Fim*/
     
 }
 
-    .di {
-        display: inline-block;
+/* Desativando as div azuls dos tópicos */
+@media screen and (max-width: 1024px) {
+    
+    div .divVerticalQuemSou {
+        display: none;
     }
-
-    .bg-info {
-        background-color: #338ab7!important;
+    div .divVertical {
+        display: none;
     }
-
-    .circle-sm {
-        width: 60px;
-        padding-top: 15px;
-        height: 60px;
-        font-size: 25px!important;
+    div .divVerticalxp {
+        display: none;
     }
-
-    .circle {
-        border-radius: 100%;
-        text-align: center !important;
-        color: #ffffff !important;
+    div .divVerticalcol {
+        display: none;
     }
-
-    .Btn_Adicionar {
-        position: fixed;
-        bottom: 1em;
-        right: 0.7em;
-        text-decoration: none;
-        color: red;
-        background-color: rgba(255, 255, 255, .2);
-        font-size: 12px;
-        padding: 1em;
+    div .divVerticalport {
+        display: none;
     }
     
-    .CenterSpan span {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        color: white;
-    }
-
-
-
+}
